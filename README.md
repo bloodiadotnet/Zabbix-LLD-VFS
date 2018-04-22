@@ -1,9 +1,9 @@
-# lld-processes
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/bloodia/Zabbix-Low-Level-Discovery/blob/master/lld-processes/LICENSE.md)
-[![Build Status](https://travis-ci.org/bloodia/Zabbix-Low-Level-Discovery.svg?branch=master)](https://travis-ci.org/bloodia/Zabbix-Low-Level-Discovery)
+# lld-vfs
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/bloodia/Zabbix-LLD-VFS/blob/master/LICENSE.md)
+[![Build Status](https://travis-ci.org/bloodia/Zabbix-LLD-VFS.svg?branch=master)](https://travis-ci.org/bloodia/Zabbix-LLD-VFS)
 
 ## Overview
-Zabbix customized server-side scripts for processes low level discovery.
+Zabbix customized server-side scripts for virtual file system low level discovery.
 
 ## Requires
 ### OS
@@ -25,17 +25,17 @@ Zabbix customized server-side scripts for processes low level discovery.
 
 ## Script Usage
 ```
-usage: lld-processes.py [-h] [-v] [-u PSUSER] [-n PSNAME]
+usage: lld-vfs.py [-h] [-v] [-t FSTYPE] [-n FSNAME]
 
 optional arguments:
   -h, --help            show this help message and exit
   -v, --version         show version and exit
-  -u PSUSER, --psuser PSUSER
-                        select process user
-  -n PSNAME, --psname PSNAME
-                        select process name
+  -t FSTYPE, --fstype FSTYPE
+                        select virtual file system type
+  -n FSNAME, --fsname FSNAME
+                        select virtual file system name
 
-for example: /usr/local/bin/lld-processes.py -t 'zabbix' -n '/usr/sbin/zabbix_server'
+for example: /usr/local/bin/lld-vfs.py -t 'nfs' -n '/data'
 ```
 
 ## Install Script

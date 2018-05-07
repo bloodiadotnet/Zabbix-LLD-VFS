@@ -16,6 +16,7 @@ Zabbix customized server-side scripts for virtual file system low level discover
 - 3.3
 - 3.4
 - 3.5
+- 3.6
 
 ### Python Modules
 - json

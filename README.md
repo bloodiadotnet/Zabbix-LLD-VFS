@@ -14,7 +14,6 @@ Zabbix customized server-side scripts for virtual file system low level discover
 ### Python
 - 2.6
 - 2.7
-- ~~3.2~~
 - 3.3
 - 3.4
 - 3.5

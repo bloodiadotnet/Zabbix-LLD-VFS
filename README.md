@@ -2,6 +2,7 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/bloodia/Zabbix-LLD-VFS/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/bloodia/Zabbix-LLD-VFS.svg?branch=master)](https://travis-ci.org/bloodia/Zabbix-LLD-VFS)
 [![Maintainability](https://api.codeclimate.com/v1/badges/43fdd0e95309ebec8978/maintainability)](https://codeclimate.com/github/bloodia/Zabbix-LLD-VFS/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/43fdd0e95309ebec8978/test_coverage)](https://codeclimate.com/github/bloodia/Zabbix-LLD-VFS/test_coverage)
 
 ## Overview
 Zabbix customized server-side scripts for virtual file system low level discovery.
@@ -13,7 +14,7 @@ Zabbix customized server-side scripts for virtual file system low level discover
 ### Python
 - 2.6
 - 2.7
-- 3.2
+- ~~3.2~~
 - 3.3
 - 3.4
 - 3.5

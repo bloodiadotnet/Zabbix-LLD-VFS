@@ -40,7 +40,7 @@ optional arguments:
 for example: /usr/local/bin/lld-vfs.py -t 'nfs' -n '/data'
 ```
 
-## How to install
+## How to Install
 ### Script
 - Create directory "/usr/local/bin" and copy "Custom Script" file (py) to inside.  
 - Change "Custom Script" file (py) to 555 or dr-xr-xr-x using chmod.  

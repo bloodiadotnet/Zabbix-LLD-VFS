@@ -40,12 +40,13 @@ optional arguments:
 for example: /usr/local/bin/lld-vfs.py -t 'nfs' -n '/data'
 ```
 
-## Install Script
-Create directory "/usr/local/bin" and copy "Custom Script" file (py) to inside.  
-Change "Custom Script" file (py) to 555 or dr-xr-xr-x using chmod.  
+## How to install
+### Script
+- Create directory "/usr/local/bin" and copy "Custom Script" file (py) to inside.  
+- Change "Custom Script" file (py) to 555 or dr-xr-xr-x using chmod.  
 
-## Install UserParameter Config
-Copy "UserParameter Config" file (conf) to /etc/zabbix/zabbix_agentd.d and restart Zabbix agent.  
+### UserParameter Config
+- Copy "UserParameter Config" file (conf) to /etc/zabbix/zabbix_agentd.d and restart Zabbix agent.  
 
 ## Author
 [@bloodia](https://twitter.com/bloodiadotnet)

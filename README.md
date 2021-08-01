@@ -1,5 +1,5 @@
 # lld-vfs
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/bloodia/Zabbix-LLD-VFS/blob/master/LICENSE)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/bloodiadotnet/Zabbix-LLD-VFS/blob/master/LICENSE)
 
 ## Overview
 Zabbix customized server-side scripts for virtual file system low level discovery.
@@ -46,4 +46,4 @@ for example: /usr/local/bin/lld-vfs.py -t 'nfs' -n '/data'
 - Copy "UserParameter Config" file (conf) to /etc/zabbix/zabbix_agentd.d and restart Zabbix agent.  
 
 ## Author
-[@bloodia](https://twitter.com/bloodiadotnet)
+[@bloodiadotnet](https://twitter.com/bloodiadotnet)

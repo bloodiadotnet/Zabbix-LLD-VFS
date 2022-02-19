@@ -18,7 +18,6 @@ Zabbix customized server-side scripts for virtual file system low level discover
 
 ### Python Modules
 - json
-- subprocess
 - re
 - argparse
 

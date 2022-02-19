@@ -18,7 +18,6 @@
 # --+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
 
 import json
-import subprocess
 import re
 import argparse
 

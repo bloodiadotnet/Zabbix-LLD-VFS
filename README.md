@@ -1,4 +1,4 @@
-# lld-vfs
+# Zabbix-LLD-VFS
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/bloodiadotnet/Zabbix-LLD-VFS/blob/master/LICENSE)
 
 ## Overview
